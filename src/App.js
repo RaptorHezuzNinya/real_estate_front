@@ -4,17 +4,17 @@ import "./App.css";
 
 class App extends Component {
   render() {
-           return (
+    return (
       <div className="App">
-                            <header className="App-header">
-                                                       <img src={logo} className="App-logo" alt="logo" />
-                                                             <h1 className="App-title">Welcome to React</h1>
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.j s</code>
           and s ave to reload.
-               </p>
- </div>
+        </p>
+      </div>
     );
   }
 }
