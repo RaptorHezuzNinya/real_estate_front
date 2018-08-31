@@ -4,5 +4,5 @@
 
 ## Updates Inc
 
-[Ejecting](#updates)
+[Updates](#updates)
 WIP will be updated
