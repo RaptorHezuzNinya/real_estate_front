@@ -34,17 +34,10 @@ class Filter extends Component {
 	render() {
 		// const { classes } = this.props;
 		return (
-			<form autoComplete="on">
+			<form>
 				<FormControl>
 					<InputLabel>Month</InputLabel>
-					<Select
-						value={this.state.age}
-						onChange={this.handleChange}
-						inputProps={{
-							name: "Month",
-							id: "age-simple"
-						}}
-					>
+					<Select value={this.state.age} onChange={this.handleChange}>
 						<MenuItem value={10}>Ten</MenuItem>
 						<MenuItem value={20}>Twenty</MenuItem>
 						<MenuItem value={30}>Thirty</MenuItem>

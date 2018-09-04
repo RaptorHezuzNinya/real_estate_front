@@ -13,7 +13,7 @@ const styles = {
 		display: "flex"
 	},
 	toolb: {
-		justifyContent: "center"
+		justifyContent: "space-around"
 	}
 };
 
