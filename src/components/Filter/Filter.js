@@ -22,8 +22,8 @@ import Select from "@material-ui/core/Select";
 
 class Filter extends Component {
 	state = {
-		age: "Hunderd",
-		name: "Month"
+		age: "",
+		name: "hai"
 	};
 
 	handleChange = event => {
@@ -37,7 +37,14 @@ class Filter extends Component {
 			<form>
 				<FormControl>
 					<InputLabel>Month</InputLabel>
-					<Select value={this.state.age} onChange={this.handleChange}>
+					<Select
+						value={this.state.age}
+						onChange={this.handleChange}
+						inputProps={{
+							name: "age",
+							id: "age-simple"
+						}}
+					>
 						<MenuItem value={10}>Ten</MenuItem>
 						<MenuItem value={20}>Twenty</MenuItem>
 						<MenuItem value={30}>Thirty</MenuItem>
