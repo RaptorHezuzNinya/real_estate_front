@@ -6,6 +6,8 @@ import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 
+// Filter needs to be reuable so render the props
+
 // const styles = theme => ({
 // 	root: {
 // 		display: "flex",
@@ -21,12 +23,13 @@ import Select from "@material-ui/core/Select";
 // });
 
 class Filter extends Component {
+	// need init state to have comp render
 	state = {
-		age: "",
-		name: "hai"
+		month: ""
 	};
 
 	handleChange = event => {
+		console.log(event.target.name);
 		this.setState({ [event.target.name]: event.target.value });
 	};
 	// className={classes.root}
