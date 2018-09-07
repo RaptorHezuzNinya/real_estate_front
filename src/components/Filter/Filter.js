@@ -41,11 +41,11 @@ class Filter extends Component {
 				<FormControl>
 					<InputLabel>Month</InputLabel>
 					<Select
-						value={this.state.age}
+						value={this.state.month}
 						onChange={this.handleChange}
 						inputProps={{
-							name: "age",
-							id: "age-simple"
+							name: "month",
+							id: "month-filter"
 						}}
 					>
 						<MenuItem value={10}>Ten</MenuItem>

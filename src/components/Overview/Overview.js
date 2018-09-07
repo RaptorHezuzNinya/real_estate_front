@@ -20,7 +20,7 @@ class Overview extends Component {
 		return (
 			<div>
 				{this.state.tenants.map(tenant => (
-					<OverviewItem tenant={tenant} />
+					<OverviewItem key={tenant.id} tenant={tenant} />
 				))}
 			</div>
 		);
