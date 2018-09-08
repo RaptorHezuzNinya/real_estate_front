@@ -8,6 +8,6 @@
 	"prettier.disableLanguages": ["js"],
 	"files.autoSave": "onFocusChange",
 
-	"editor.fontFamily": "Fira Code Light",
-	"editor.fontSize": 13
+	"editor.fontFamily": "Fira Code",
+	"editor.fontSize": 14
 }
